@@ -1,0 +1,100 @@
+/* Styles principaux pour l'application Code Snippets */
+
+/* Styles pour les conteneurs de code */
+.code-container {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 15px;
+  position: relative;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.code-container pre {
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+}
+
+/* Styles pour les badges de catégorie */
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.badge.bg-info {
+  background-color: #0dcaf0 !important;
+  color: #000;
+}
+
+.badge.bg-primary {
+  background-color: #0d6efd !important;
+}
+
+/* Styles pour les boutons de filtre */
+.btn-group .btn {
+  margin-right: 5px;
+}
+
+/* Animation pour le message de copie */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.copy-message {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Styles pour le formulaire */
+.form-control:focus, .form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Styles pour les cartes de snippet */
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le bouton de copie */
+.btn-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn-copy:hover {
+  opacity: 1;
+}
+
+/* Styles pour les messages d'alerte */
+.alert {
+  border-radius: 4px;
+  padding: 12px 15px;
+}
+
+/* Styles pour le spinner de chargement */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Styles pour le responsive */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .col-md-4, .col-md-8 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
