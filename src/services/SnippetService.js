@@ -1,6 +1,6 @@
 // Service pour gérer les opérations liées aux snippets de code
 
-const API_URL = 'http://localhost/api'; // URL de l'API backend
+const API_URL = "https://snippetbackend.onrender.com"; // URL de l'API backend
 
 class SnippetService {
   // Récupérer tous les snippets
