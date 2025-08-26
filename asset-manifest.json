@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SEY-JUGGLER/snippetFrontend/static/css/main.d018ef10.css",
+    "main.js": "/SEY-JUGGLER/snippetFrontend/static/js/main.f936989c.js",
+    "static/js/453.c50e3c88.chunk.js": "/SEY-JUGGLER/snippetFrontend/static/js/453.c50e3c88.chunk.js",
+    "index.html": "/SEY-JUGGLER/snippetFrontend/index.html",
+    "main.d018ef10.css.map": "/SEY-JUGGLER/snippetFrontend/static/css/main.d018ef10.css.map",
+    "main.f936989c.js.map": "/SEY-JUGGLER/snippetFrontend/static/js/main.f936989c.js.map",
+    "453.c50e3c88.chunk.js.map": "/SEY-JUGGLER/snippetFrontend/static/js/453.c50e3c88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d018ef10.css",
+    "static/js/main.f936989c.js"
+  ]
+}
